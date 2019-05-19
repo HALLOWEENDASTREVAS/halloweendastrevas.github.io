@@ -40,10 +40,24 @@ body{
 .div1{
 	width: 100%;
 }
-.img-circle{
+.img{
 	cursor: pointer;
 	border-radius: 1%;
 	border: solid #6B6B6B 1px;
 	width: 170px; 
 	height: 150px;
+}
+.click{
+	color: #007EFF;
+	cursor: pointer;
+}
+.img2{
+	cursor: pointer;
+	border-radius: 1%;
+	border: solid #6B6B6B 1px;
+	width: 160px; 
+	height: 140px;
+}
+p{
+	text-indent: 6%;
 }

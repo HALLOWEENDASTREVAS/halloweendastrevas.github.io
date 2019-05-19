@@ -4,6 +4,11 @@
   	<meta charset=utf-8>
   	<link rel="stylesheet" type="text/css" href="css/index.css">
   	<title>Página inicial</title>
+
+    <!------ Bootstrap 1 ---------->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body>
     <div class="cabecalho">
@@ -15,10 +20,10 @@
             	<br>
             	<h1>Bem-vindo(a) a minha página!</h1>
             	<em>Olá meu nome é Kleyton C. Medeiros,</em><br>
-            	<em>eu sou um programador iniciante</em><br><br>
-                <a href="https://github.com/HALLOWEENDASTREVAS" target="_blank"><img src="img/men.jpg" name="aboutme" class="img-circle"></a><br>
-                <em>Clique na imagem para ir ao meu GitHub</em><br><br>  
-                <em>Ou <a data-toggle="modal" data-target="#myModal">clique aqui </a>para mais informações</em> 
+            	<em>eu sou um desenvolvedor iniciante</em><br><br>
+                <a data-toggle="modal" data-target="#myModal"><img src="img/men.jpg" name="aboutme" class="img"></a><br><br>
+                <em>clique na imagem para mais informações</em><br> 
+                <em>Ou <a class="click" href="https://github.com/HALLOWEENDASTREVAS" target="_blank">clique aqui</a> para ir ao meu GitHub</em><br>  
                 <br><br><br><br>   
             </center>
         </div>
@@ -29,16 +34,28 @@
       <div class="modal-dialog" role="document">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Meu Perfil</h5>
             <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
               <span aria-hidden="true">✕</span>
             </button>
+            <h3 class="modal-title" id="exampleModalLabel">Meu Perfil</h3>
           </div>
           <div class="modal-body">
-             
+            <center>
+                <br>
+                <img src="img/men.jpg" name="aboutme" class="img2">
+                <h4>Kleyton Cardoso Medeiros</h4>
+                <h5>Nascido em 03/03/2000</h5>
+                <h5>Contato: (48) 99841-1858</h5>
+                <h5>kleytoncardosomedeiros@gmail.com</h5>
+                <hr>
+            </center>
+            <div>
+                <h5>Info.</h5>
+                <p>Desenvolvedor Web com experiências nas linguagens HTML, CSS, JavaScript, PHP. Possui conhecimentos intermediários nas linguagens java e delphi, assim como conhecimentos basicos em Python, git, github, Android, C e C++. É graduado no curso de Técnico de Informática pela Escola Técnica SATC.</p>
+            </div>
           </div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Voltar</button>
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
           </div>
         </div>
       </div>
