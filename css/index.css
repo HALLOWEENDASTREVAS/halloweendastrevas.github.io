@@ -44,6 +44,14 @@ body{
 	color: #007EFF;
 	cursor: pointer;
 }
+.container img{
+	position: relative;
+	height: 25%;
+	width: 17%;
+	border: solid #6B6B6B 1px;
+	cursor: pointer;
+	border-radius: 1%;
+}
 .img2{
 	cursor: pointer;
 	border-radius: 1%;
