@@ -1,0 +1,49 @@
+/**
+* Minha Página
+* @Author kleyton
+**/
+
+body{
+	margin: 0;
+	padding: 0;
+}
+.cabecalho{
+	height: auto;
+	width: 100%;
+	background-color: #292b2c;
+}
+.cabecalho button{
+	cursor: pointer;
+	border: none;
+	padding: 15px 5px 12px 20px;
+	font-family: Arial;
+	font-size: 1.2em;
+	color: #7A7A7A;
+	background-color: transparent;
+}
+.cabecalho button:hover{
+	color: #C5C1C1;
+}
+.container{
+	width: 100%;
+	height: auto;
+	text-align: center;
+}
+.corpo{
+	border-radius: 5px;
+	width: 80%;
+	margin-top: .2%;
+	margin-left: 10%;
+	border: solid #E4E4E4 2px;
+	background-color: #EFEFEF;
+}
+.div1{
+	width: 100%;
+}
+.img-circle{
+	cursor: pointer;
+	border-radius: 1%;
+	border: solid #6B6B6B 1px;
+	width: 170px; 
+	height: 150px;
+}
